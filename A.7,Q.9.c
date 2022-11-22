@@ -17,6 +17,7 @@ int main()
     scanf("%d",&s);
 
     int p;
-    printf("profit price is %d",s-c);
-    printf("Profit percentage is %d\%",(p/s)*100);
+    p=s-c;
+    printf("profit price is %d",p);
+    printf("Profit percentage is %f",(p/s)*100);
 }
